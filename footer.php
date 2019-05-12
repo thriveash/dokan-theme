@@ -46,8 +46,7 @@
 
                             if ( empty( $footer_text ) ) {
                                 printf( __( '&copy; %d, %s. All rights are reserved.', 'dokan-theme' ), date( 'Y' ), get_bloginfo( 'name' ) );
-                                printf( __( 'Powered by <a href="%s" target="_blank">Dokan</a> from <a href="%s" target="_blank">weDevs</a>', 'dokan-theme' ), esc_url( 'http://wedevs.com/theme/dokan/?utm_source=dokan&utm_medium=theme_footer&utm_campaign=product' ), esc_url( 'http://wedevs.com/?utm_source=dokan&utm_medium=theme_footer&utm_campaign=product' ) );
-                            } else {
+                                                            } else {
                                 echo $footer_text;
                             }
                             ?>
